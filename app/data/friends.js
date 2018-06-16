@@ -66,6 +66,108 @@ var friends = [
             4,
             3
         ]
+    },
+    {
+        name: "Darth Vader",
+        image: "https://lumiere-a.akamaihd.net/v1/images/Darth-Vader_6bda9114.jpeg?region=0%2C23%2C1400%2C785&width=768",
+        scores: [
+            1,
+            5,
+            2,
+            4,
+            3,
+            2,
+            4,
+            1,
+            5,
+            3,
+            2
+        ]
+    },
+    {
+        name: "Scrooge McDuck",
+        image: "https://vignette.wikia.nocookie.net/disney/images/3/38/Scrooge_%28Mickey_Mouse_2013%29.jpeg/revision/latest?cb=20150114140251",
+        scores: [
+            5,
+            5,
+            5,
+            3,
+            2,
+            4,
+            1,
+            5,
+            1,
+            2,
+            1
+        ]
+    },
+    {
+        name: "Donald Trump",
+        image: "https://timedotcom.files.wordpress.com/2016/05/trump-fail-004.jpg",
+        scores: [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            1,
+            1,
+            1,
+            1,
+            1
+        ]
+    },
+    {
+        name: "Vito Corleone",
+        image: "https://wallpapercave.com/wp/hgnYsca.jpg",
+        scores: [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+        ]
+    },
+    {
+        name: "Master Chief",
+        image: "http://images.goodsmile.info/cgm/images/product/20141126/4749/31502/large/b7b205b3540fc9034da0d2a129aa12e0.jpg",
+        scores: [
+            2,
+            4,
+            2,
+            4,
+            2,
+            4,
+            2,
+            4,
+            2,
+            4,
+            2
+        ]
+    },
+    {
+        name: "Keith Richards",
+        image: "https://static01.nyt.com/images/2015/08/30/arts/30RICHARDS1/30RICHARDS1-articleLarge.jpg?quality=75&auto=webp&disable=upscale",
+        scores: [
+            5,
+            5,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ]
     }
     
 ]

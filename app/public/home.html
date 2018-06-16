@@ -2,226 +2,23 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Star Wars - Express</title>
+  <title>SnapFace</title>
   <!-- Latest compiled and minified CSS & JS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 </head>
 <body>
-
-  <div class="container">
-    <div class="jumbotron">
-      <a href="/"><button class="btn btn-danger btn-lg"><span class="fa fa-eye"></span> View Characters</button></a>
-    </div>
-    <div class="row">
-
-      <div class="col-lg-12">
-
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h3 class="panel-title"><strong>Add Characters</strong></h3>
-          </div>
-          <div class="panel-body">
-            <form method="POST" role="form">
-
-              <div class="form-group">
-                <label for="name">Name</label>
-                <input type="text" class="form-control" id="name">
-              </div>
-
-              <div class="form-group">
-                <label for="image">Image</label>
-                <input type="text" class="form-control" id="image">
-              </div>
-            
-            <div id="quest-lbl"></div>
-
-            <h3>Question 1</h3>
-            <h4>This is the first question</h4>
-            <div class="form-group">
-                <label for="q1">1=Strongly Disagree 5=Strongly Agree</label>
-                <select class="form-control" id="q1">
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5</option>
-                </select>
-            </div>
-            <h3>Question 2</h3>
-            <h4>This is the second question</h4>
-            <div class="form-group">
-                <label for="q2">1=Strongly Disagree 5=Strongly Agree</label>
-                <select class="form-control" id="q2">
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5</option>
-                </select>
-            </div>
-            <h3>Question 3</h3>
-            <h4>This is the third question</h4>
-            <div class="form-group">
-                <label for="q3">1=Strongly Disagree 5=Strongly Agree</label>
-                <select class="form-control" id="q3">
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5</option>
-                </select>
-            </div>
-            <h3>Question 4</h3>
-            <h4>This is the fourth question</h4>
-            <div class="form-group">
-                <label for="q4">1=Strongly Disagree 5=Strongly Agree</label>
-                <select class="form-control" id="q4">
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5</option>
-                </select>
-            </div>
-            <h3>Question 5</h3>
-            <h4>This is the fifth question</h4>
-            <div class="form-group">
-                <label for="q5">1=Strongly Disagree 5=Strongly Agree</label>
-                <select class="form-control" id="q5">
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5</option>
-                </select>
-            </div>
-            <h3>Question 6</h3>
-            <h4>This is the sixth question</h4>
-            <div class="form-group">
-                <label for="q6">1=Strongly Disagree 5=Strongly Agree</label>
-                <select class="form-control" id="q6">
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5</option>
-                </select>
-            </div>
-            <h3>Question 7</h3>
-            <h4>This is the seventh question</h4>
-            <div class="form-group">
-                <label for="q7">1=Strongly Disagree 5=Strongly Agree</label>
-                <select class="form-control" id="q7">
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5</option>
-                </select>
-            </div>
-            <h3>Question 8</h3>
-            <h4>This is the eigth question</h4>
-            <div class="form-group">
-                <label for="q8">1=Strongly Disagree 5=Strongly Agree</label>
-                <select class="form-control" id="q8">
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5</option>
-                </select>
-            </div>
-            <h3>Question 9</h3>
-            <h4>This is the ninth question</h4>
-            <div class="form-group">
-                <label for="q9">1=Strongly Disagree 5=Strongly Agree</label>
-                <select class="form-control" id="q9">
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5</option>
-                </select>
-            </div>
-            <h3>Question 10</h3>
-            <h4>This is the tenth question</h4>
-            <div class="form-group">
-                <label for="q10">1=Strongly Disagree 5=Strongly Agree</label>
-                <select class="form-control" id="q10">
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5</option>
-                </select>
-            </div>
-            <h3>Question 11</h3>
-            <h4>This is the eleventh question</h4>
-            <div class="form-group">
-                <label for="q11">1=Strongly Disagree 5=Strongly Agree</label>
-                <select class="form-control" id="q11">
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5</option>
-                </select>
-            </div>
-            
-
-            </form>
-            <br>
-            <div class="text-right">
-              <button type="submit" class="btn btn-primary btn-md" id="add-btn"><span class="fa fa-fire"></span> Add to the Force</button>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
+  <div class="jumbotron">
+    <h1>SnapFace</h1>
+    <h2>Make some friends</h2>
+    <a href="/survey"><button class="btn btn-danger btn-lg"><span class="fa fa-eye"></span>Take the survey</button></a>
   </div>
 
-  <script type="text/javascript">
-    $("#add-btn").on('click', function()  {
-        
-        
-        var newFriend = {
-            name: $("#name").val().trim(),
-            image: $("#image").val().trim(),
-            scores: []
-        }
-
-        newFriend.scores.push(
-            $("#q1").val().trim(),
-            $("#q2").val().trim(),
-            $("#q3").val().trim(),
-            $("#q4").val().trim(),
-            $("#q5").val().trim(),
-            $("#q6").val().trim(),
-            $("#q7").val().trim(),
-            $("#q8").val().trim(),
-            $("#q9").val().trim(),
-            $("#q10").val().trim(),
-            $("#q11").val().trim(),
-
-        )
-        
-        let currentUrl = window.location.origin
-
-        $.post(currentUrl + "/api/friends", newFriend, function(data)  {
-          swal({
-            title: "Say Hello to:",
-            text: data.name,
-            icon: data.image,
-          });
-        })
-    })
-  </script>
 
 
 </body>
