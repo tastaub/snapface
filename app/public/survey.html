@@ -179,9 +179,7 @@
       name: $("#name").val().trim(),
       image: $("#image").val().trim(),
       scores: []
-    }
-
-
+    };
     newFriend.scores.push(
       $("#q1").val().trim(),
       $("#q2").val().trim(),
@@ -206,6 +204,20 @@
         icon: data.image,
       });
     })
+
+    $("#name").val(" ");
+    $("#image").val(" ");
+    $("#q1").val("1");
+    $("#q2").val("1");
+    $("#q3").val("1");
+    $("#q4").val("1");
+    $("#q5").val("1");
+    $("#q6").val("1");
+    $("#q7").val("1");
+    $("#q8").val("1");
+    $("#q9").val("1");
+    $("#q10").val("1");
+    $("#q11").val("1");
   })
   </script>
 
